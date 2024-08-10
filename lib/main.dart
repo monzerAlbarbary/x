@@ -33,7 +33,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 25;
+  int _counter = 2;
 
   void _incrementCounter() {
     setState(() {
@@ -71,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.add_a_photo_outlined),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }

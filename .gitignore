@@ -43,3 +43,4 @@ app.*.map.json
 /android/app/release
 lib/home.dart
 lib/main.dart
+*.dart
